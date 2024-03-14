@@ -28,4 +28,4 @@ const BookSchema = new mongoose.Schema({
   }
 });
 
-module.exports = Book = moongoose.model('book', BookSchema);
+module.exports = Book = mongoose.model('book', BookSchema);
